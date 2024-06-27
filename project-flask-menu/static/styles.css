@@ -1,0 +1,103 @@
+body {
+    font-family: sans-serif;
+    background-color: #c4c4c4;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    font-family: 'Courier New';
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p,
+dd,
+dt {
+    color: #f1e8d4;
+}
+
+a {
+    text-decoration: none;
+    color: #f0e6a0;
+    font-size: .75em;
+}
+
+.pane {
+    margin:0 auto;
+    width:75%;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 5px;
+    border-color: #bfa96b;
+    background-color: #b7a484;
+}
+
+.header {
+    left: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.npd {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px #ceb788;
+    border-color: #d4cba8;
+    padding: 5px;
+    margin: 10px;
+}
+
+
+.restaurants {
+    width: 75%;
+    float: left;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #999999;
+    padding: 5px;
+    margin: 5px;
+    color: #cccccc;
+}
+
+.restaurants p {
+    font-weight: bold;
+}
+
+
+.name {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+}
+
+.description {}
+
+.price {
+    color: #f1e8d4;
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+
+.editdeletepane {}
+
+.flash {
+    background: #ffc300;
+}
